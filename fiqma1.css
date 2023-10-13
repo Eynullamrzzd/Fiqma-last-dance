@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.part2-container{
+    padding: 80px 0;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+.part2-content-image img{
+    width:350px;
+    height:315px;
+}
+
+.text-content{
+    width:51.3%;
+    font-size: 24px;
+    font-weight: 400;
+}
+.part2-content-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin-top:90px;
+}
+.part2-content-bottom span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.part2-content-bottom img{
+    width:232px;
+    height:203px;
+}
+.card p{
+    font-size:18px;
+    font-weight: 400;
+}
+.part2-container h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    font-weight:700;
+    width:365px;
+    height:93px;
+}
+.s-container{
+    width:85%;
+    margin: auto;
+    padding-top: 21px;
+}
+@media  screen and (min-width:830px) and (max-width:1400px) {
+    .part2-container h2{
+        font-size: 34px;
+        font-weight:700;
+        width:211px;
+        height:53px;
+    }
+    .text-content{
+        width:57%;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .part2-content-image img{
+        width:200px;
+        height:200px;
+    }
+    .part2-content-bottom img{
+        width:160px;
+        height:140px;
+    }
+    .card p{
+        font-size: 13px;
+        line-height: 14.3px;
+    }
+    .card span{
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+    .part2-content-bottom{
+        width:70%;
+        margin-top:55px;
+    }
+    .content{
+        width:80%;
+    }
+}
+@media  screen and (min-width:375px) and (max-width:830px){
+    .part1-top-img{
+        width:70px;
+        height:40px;
+    }
+    .info img{
+        width: 16px;
+        height: 16px;
+    }
+    .info span{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .part1-title{
+        font-size:37px;
+        font-weight:700;
+        line-height: 37.5px;
+        width:300px;
+        height: 88.5px;
+        margin-top: 8px;
+    }
+    .body-text p{
+        font-size: 10px;
+        font-weight:400;
+        line-height: 15px;
+    }
+    .first-part-body{
+        display: block;
+        width: 95%;
+        margin-bottom:50px;
+    }
+    .header-info{
+        width:80%;
+        margin-top: 40px;
+    }
+    .body-img img{
+        width:165px;
+        height:180px;
+        margin-bottom: 0;
+    }
+    .body-img{
+        text-align: end;
+    }
+    .first-part-bottom{
+        width:65%;
+    }
+    .content-card{
+        width:215px;
+        height:93px;
+        background-color: #1e4681;
+        margin: auto;
+        color:white;
+        font-size: 10px;
+        font-weight: 400;
+        padding:12px 11px 30px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .author{
+        margin-top:4px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .part2-container h2{
+        font-size: 26px;
+        width:170px;
+        height:43px;
+        line-height: 26px;
+    }
+    .text-content{
+        width:100%;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    .content{
+        display: block;
+    }
+    .s-container{
+        width:82%;
+        margin: auto;
+        padding-top: 21px;
+    }
+    .part2-content-bottom img{
+        display: none;
+    }
+    .card span{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15.6px;
+    }
+    .card p{
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .part2-content-bottom{
+        width:68%;
+        margin-top:90px;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-bottom: 15px;
+        width:49%;
+    }
+    .part2-content-image img{
+       width: 180px;
+       height: 160px;
+    }
+    .part2-content-image{
+        width: 100%;
+        text-align: center;
+    }
+    .card p{
+        font-size: 16px;
+        line-height: 14.3px;
+    }
+    .card span{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 19.5px;
+    }
+}
